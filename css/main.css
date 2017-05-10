@@ -1,3 +1,8 @@
+
+body {
+  background-color: #1e1e1e;
+}
+
 .video-tile {
   height: 250px;
   background-size: cover;
