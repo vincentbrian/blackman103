@@ -10,5 +10,7 @@ videoUrl = videoUrl + "?autoplay=1";
   console.log(iframeSrc)
   console.log(iframeElement);
 
-  iframeElement.attr("src", videoUrl )
+  iframeElement.attr("src", videoUrl );
+
+  $('#slick-carousel').slick();
 });
