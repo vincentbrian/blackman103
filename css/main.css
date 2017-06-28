@@ -16,9 +16,6 @@ body {
 }
 
 
-
-
-
 /*iframe videos from youtube*/
 
 .video-container {
@@ -43,11 +40,29 @@ body {
   background-position: center;
 }
 
+@media (max-width: 768px) {
+  #iframe-container {
+    position: ;
+  }
+}
+
 
 /*video carousel */
 
 .video-carousel {
   position: relative;
+}
+
+@media (max-width: 576px) {
+  .video-carousel {
+    padding: 0 25px;
+  }
+  .slick-prev {
+    left: -1px;
+  }
+  .slick-next {
+    right: -1px;
+  }
 }
 
 .video-carousel .slick-list {
