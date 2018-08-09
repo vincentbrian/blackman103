@@ -40,3 +40,16 @@ body {
 .service-image {
   height: 300px;
 }
+.about-section {
+  display: flex;
+  justify-content: center;
+  background-color:#13e5e0;
+}
+.about-image img {
+  height: 300px;
+}
+.about-text button {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
